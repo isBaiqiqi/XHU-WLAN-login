@@ -19,7 +19,7 @@
 | 平台                                | 文件                          | 说明                            |
 | ----------------------------------- | ----------------------------- | ------------------------------- |
 | macOS（Apple Silicon，M1/M2/M3/M4） | `CampusLogin-macos-arm64.zip` | 解压后得到 `CampusLogin.app`    |
-| Windows 10 / 11（64 位）            | `CampusLogin-win64.zip`       | 解压后得到 `CampusLogin` 文件夹 |
+| Windows 10 / 11（64 位）            | `CampusLogin-win-x64`       | 解压后得到 `CampusLogin` 文件夹 |
 
 > 程序未做代码签名，首次运行会被系统拦一次，按下面的步骤放行即可，属正常现象。
 
@@ -48,10 +48,8 @@
 
 ## 三、Windows 使用
 
-1. 把下载的 zip 解压，**整个 `CampusLogin` 文件夹一起放到固定位置**（例如 `D:\CampusLogin`），
-   不要只把 exe 单独拖出来——同目录的 `_internal` 是运行必需的。
-2. 双击 `CampusLogin.exe`。
-3. 若弹出 SmartScreen「Windows 已保护你的电脑」：
+1. 双击 `CampusLogin.exe`。
+2. 若弹出 SmartScreen「Windows 已保护你的电脑」：
    点「更多信息」→「仍要运行」。
    个别杀毒软件可能误报 PyInstaller 打包的程序，加信任即可。
 
