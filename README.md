@@ -104,7 +104,7 @@
 | 账号、认证方式、检查间隔 | `%APPDATA%\CampusLogin\config.json`        | `~/Library/Application Support/CampusLogin/config.json` |
 | 密码                     | Windows 凭据管理器（`CampusLogin/<账号>`） | 登录钥匙串                                              |
 | 日志                     | `%APPDATA%\CampusLogin\app.log`            | 同目录 `app.log`                                        |
-| 界面地址                 | `https://127.0.0.1:8765/`         | 同目录 `https://127.0.0.1:8765/`                                     |
+| 界面地址                 | `https://127.0.0.1:8765/`         | `https://127.0.0.1:8765/`                                     |
 
 - 密码不会写进 `config.json`，也不会出现在日志里；
 - 界面只监听 `127.0.0.1`，只有本机能访问，且需要带访问令牌的地址；
