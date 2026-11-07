@@ -19,7 +19,7 @@
 | 平台                                | 文件                          | 说明                            |
 | ----------------------------------- | ----------------------------- | ------------------------------- |
 | macOS（Apple Silicon，M1/M2/M3/M4） | `CampusLogin-macos-arm64.zip` | 解压后得到 `CampusLogin.app`    |
-| Windows 10 / 11（64 位）            | `CampusLogin-win-x64.exe`       | 解压后得到 `CampusLogin` 文件夹 |
+| Windows 10 / 11（64 位）            | `CampusLogin-win-x64.exe`       | 直接双击运行 |
 
 > 程序未做代码签名，首次运行会被系统拦一次，按下面的步骤放行即可，属正常现象。
 
